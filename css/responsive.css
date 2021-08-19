@@ -1,0 +1,33 @@
+@media (max-width: 800px) {
+  .forms {
+    flex-wrap: wrap;
+  }
+  .forms-2 input,
+  .button,
+  .textarea {
+    width: 600px;
+  }
+  .container-2 {
+    color: crimson;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .images {
+    flex-wrap: wrap;
+  }
+  .burger-icon {
+    display: inline-block;
+  }
+  .lists {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .forms-2 input,
+  .textarea,
+  .button {
+    width: 300px;
+  }
+}
